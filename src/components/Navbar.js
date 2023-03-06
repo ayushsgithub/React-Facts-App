@@ -7,7 +7,6 @@ export default function Navbar(props) {
       
         <img className="nav--logo_icon" src={logo} alt="error" />
         <h1 className="nav--logo_text">ReactFacts</h1>
-      
       <div className="toggler">
         <p className="toggler--light">Light</p>
         <div className="toggler--slider" onClick={props.toggleDarkMode}>
